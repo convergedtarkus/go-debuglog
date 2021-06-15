@@ -8,7 +8,7 @@ import (
 
 const defaultPrefix = "!!!! "
 
-func TestAddPrefix(t *testing.T) {
+func Test_AddPrefix(t *testing.T) {
 	testCases := []struct {
 		name        string
 		inputValue  string
